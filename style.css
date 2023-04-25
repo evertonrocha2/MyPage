@@ -1,4 +1,70 @@
-html, body {
-  height: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+header{
   width: 100%;
+  background-color: #151D2C;
+  display: flex;
+  color: #fff;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+ 
+}
+h1{
+  font-size: 24px;
+  
+}
+section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+.about-me{
+  width: 100%;
+  background-color: #354768;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  padding: 20px 0 0 30px;
+  flex-direction: column;
+
+
+}
+.about-me h2{
+  font-size: 20px;
+}
+.about-me p{
+  font-size: 12px;
+  margin: 0 0 30px 0;
+}
+.curiosities{
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.curiosities h2{
+  font-size: 20px;
+  color: #151D2C;
+}
+.curiosities p{
+  font-size: 12px;
+  color: #151D2C;
+}
+.curiosities a{
+  outline: none;
+  text-decoration: none;
+  color: #151D2C;
+}
+.curiosities a:hover{
+  color: #415d90;
+  text-decoration: underline;
 }
