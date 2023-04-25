@@ -60,12 +60,3 @@ section{
   color: #151D2C;
   margin: 0 0 10px 0;
 }
-.curiosities a{
-  outline: none;
-  text-decoration: none;
-  color: #151D2C;
-}
-.curiosities a:hover{
-  color: #415d90;
-  text-decoration: underline;
-}
